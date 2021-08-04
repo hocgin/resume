@@ -12,7 +12,7 @@ export default {
     "信息": "洪承金/男/1994",
     "院校": "本科/厦门理工学院(软件工程)/2018",
     "职称/证书": "软件设计师",
-    "自我评价": "能够独立负责项目研发; GitHub 重度用户，能够熟练使用 DevOps(GitHub Actions + K8s); 前端技术栈主要使用 React 体系"
+    "自我评价": "全方位，能独立负责项目研发; GitHub 重度用户，基于 DevOps 进行项目和组件的发布(npm、maven)，目前累计用户 10000+。React 爱好者，React 技术栈小能手"
   },
   experience: [
     {
@@ -185,7 +185,7 @@ export default {
       {
         title: "保持敏锐，保持技术力",
         href: "https://projects.hocg.in/",
-        remark: "目前维护多个应用，累计用户 5000+，能够熟练使用和理解 DevOps。「 https://projects.hocg.in 」"
+        remark: "目前维护多个应用，累计用户 10000+，能够熟练使用和理解 DevOps。「 https://projects.hocg.in 」"
       }
     ]
   },
