@@ -12,16 +12,27 @@ export default {
     "信息": "洪承金/男/1994",
     "院校": "本科/厦门理工学院(软件工程)/2018",
     "职称/证书": "软件设计师",
-    "自我评价": "能够独立负责项目研发; GitHub 重度用户，能够熟练使用 DevOps(GitHub Actions + K8s); 前端技术栈主要使用 React 的 Antd 体系"
+    "自我评价": "能够独立负责项目研发; GitHub 重度用户，能够熟练使用 DevOps(GitHub Actions + K8s); 前端技术栈主要使用 React 体系"
   },
   experience: [
     {
-      title: "快乐学习教育科技集团 (2019年5月 ~ 至今)",
+      title: "厦门海西医药交易中心 (2021年5月 ~ 至今)",
+      timeline: [{
+        title: "药付通重构、对接平安银行",
+        lines: [
+          "- 项目使用 Nacos、Spring Cloud Netflix、MyBatis Plus、Spring Security 等技术",
+          "- 负责药付通平台开发，对接平安银行(见证宝、云收款)，为其他业务系统提供包括开户、交易(余额支付、网关支付)、退款、分账、对账、回单、单据状态同步 等一系列支付能力支持",
+          "- 药付通平台化，使用页面路由、支付路由来进行支撑，为后续扩展其他支付渠道提供支撑"
+        ]
+      }]
+    },
+    {
+      title: "快乐学习教育科技集团 (2019年5月 ~ 2021年5月)",
       timeline: [
         {
           title: "负责新系统的架构和业务设计实现",
           lines: [
-            "- 项目使用 Nacos、Spring Cloud Netflix、MyBatis Plus、Spring Gateway 等技术",
+            "- 项目使用 Nacos、Spring Cloud Netflix、MyBatis Plus、Spring Gateway、Spring Security 等技术",
             "- 负责中间件的设计、开发和维护，遵循 Starter 设计思想(利用AOP减少跨库表Join操作、Spring缓存配置、基于Redis分布式锁等)",
             "- 负责设计和实现基于网关的 RBAC 的权限系统",
             "- 单点登陆方案、旧数据迁移、旧业务交互方案设计和实现",
@@ -172,9 +183,9 @@ export default {
     href: "https://projects.hocg.in/",
     items: [
       {
-        title: "个人项目及作品",
+        title: "保持敏锐，保持技术力",
         href: "https://projects.hocg.in/",
-        remark: "保持敏锐，保持技术力。「 https://projects.hocg.in 」"
+        remark: "目前维护多个应用，累计用户 5000+，能够熟练使用和理解 DevOps。「 https://projects.hocg.in 」"
       }
     ]
   },

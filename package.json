@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
-    "@hocgin/gin-eggs": "latest",
-    "@hocgin/gin-footer": "latest",
+    "@hocgin/ui": "^4.0.3",
     "@types/qs": "^6.9.4",
     "antd": "^4.6.3",
     "@types/classnames": "^2.2.6",

@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './index.less';
-import GinFooter from '@hocgin/gin-footer';
-import GinEggs from '@hocgin/gin-eggs';
+import {Footer as GinFooter, Eggs as GinEggs} from '@hocgin/ui';
 
 const BasicLayout: React.FC = props => {
   return (
